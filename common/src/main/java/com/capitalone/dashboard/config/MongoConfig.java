@@ -32,7 +32,7 @@ public class MongoConfig extends AbstractMongoConfiguration {
         port = Integer.parseInt( properties.getProperty("dbport", "27017") );
         userName = properties.getProperty("dbusername", "");
         password = properties.getProperty("dbpassword", "").toCharArray();
-        System.out.println("dbusername=" + userName + ", password=" + password.toString());
+        System.out.println("dbname: " + databaseName + " dbusername=" + userName + ", password=" + password.toString());
     }
 
     @Override

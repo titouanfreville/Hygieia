@@ -39,15 +39,26 @@ We welcome Your interest in Capital One’s Open Source Projects (the “Project
 
 * Start API
 ```
-./gradlew :api:run
+ DASHBOARD_PROP=`pwd`/sample.properties ./gradlew :api:run
 ```
 
 * Start UI
 ```
-./gradlew :UI:run
+ DASHBOARD_PROP=`pwd`/sample.properties ./gradlew :UI:run
 ```
 
 * Running a collector
 ```
 java -jar CodeQualityCollector/build/libs/hygieia-code-quality-collector-1.0.0.jar --spring.config.location=file:sample.properties
 ```
+
+* Debugging
+
+For InteliJ notes, see: <https://github.com/akhikhl/gretty/issues/36>
+
+```
+ DASHBOARD_PROP=`pwd`/sample.properties ./gradlew :api:appStartDebug
+```
+Then attach your remote debugger.
+
+

@@ -10,6 +10,7 @@ The following components are required to run Hygieia:
      * Configure MongoDB
       * Name the database as `dashboarddb`. (Note: This is the same database that the collectors write to. So make sure that this name matches with the database names in collector properties)
       * create a user called `dashboarduser` with read/write priveleges.
+        ```  db.createUser({user: "dashboarduser", pwd: "passw0rd", "roles": [{role: "readWrite", db: "dashboarddb"}]})  ```
       * Turn Authentication on.
 
 

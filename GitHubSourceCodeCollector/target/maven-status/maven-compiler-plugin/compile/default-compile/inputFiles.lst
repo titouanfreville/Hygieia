@@ -1,0 +1,8 @@
+/home/titouan/git/Hygieia/GitHubSourceCodeCollector/src/main/java/com/capitalone/dashboard/collector/GitHubClient.java
+/home/titouan/git/Hygieia/GitHubSourceCodeCollector/src/main/java/com/capitalone/dashboard/repository/GitHubRepoRepository.java
+/home/titouan/git/Hygieia/GitHubSourceCodeCollector/src/main/java/com/capitalone/dashboard/model/GitHubRepo.java
+/home/titouan/git/Hygieia/GitHubSourceCodeCollector/src/main/java/com/capitalone/dashboard/Application.java
+/home/titouan/git/Hygieia/GitHubSourceCodeCollector/src/main/java/com/capitalone/dashboard/collector/GitHubSettings.java
+/home/titouan/git/Hygieia/GitHubSourceCodeCollector/src/main/java/com/capitalone/dashboard/collector/GitHubCollectorTask.java
+/home/titouan/git/Hygieia/GitHubSourceCodeCollector/src/main/java/com/capitalone/dashboard/collector/DefaultGitHubClient.java
+/home/titouan/git/Hygieia/GitHubSourceCodeCollector/src/main/java/com/capitalone/dashboard/collector/RestOperationsSupplier.java

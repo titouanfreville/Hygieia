@@ -48,9 +48,9 @@ for information about sourcing this properties file.
     feature.teamQuery=teaminfo
     feature.trendingQuery=trendinginfo
 
-    #Jira Connection Details
-    feature.jiraProxyUrl=http://proxy.com
-    feature.jiraProxyPort=9999
+     #Jira Connection Details
+    #feature.jiraProxyUrl=http://proxy.com
+    #feature.jiraProxyPort=9999
 
     # Trending Query:  Number of days in a sprint (not-required)
     feature.sprintDays=60
@@ -64,15 +64,15 @@ for information about sourcing this properties file.
     feature.deltaCollectorItemStartDate=2008-01-01T00:00:00.000000
 
     #Jira Connection Details
-    feature.jiraBaseUrl=http://jira-instance.com/
+    feature.jiraBaseUrl=https://nxwjira.nexway.com/
     feature.jiraQueryEndpoint=rest/api/2/
     #64-bit encoded credentials with the pattern username:password
-    feature.jiraCredentials=YWxsIHlvdXIgYmFzZSBhcmUgYmVsb25nIHRvIHVzOiB5b3UgYXJlIG9uIHRoZSB3YXkgdG8gZGVzdHJ1Y3Rpb246IG1ha2UgeW91ciB0aW1l
+    feature.jiraCredentials=dGZyZXZpbGxlOjBlNG0xOTkzKg==
     #OAuth2.0 token credentials (currently not supported in this version)
-    feature.jiraOauthAuthtoken=sdfghjkl==
-    feature.jiraOauthRefreshtoken=sdfagheh==
-    feature.jiraOauthRedirecturi=uri.this.is.test:uri
-    feature.jiraOauthExpiretime=234567890987
+    #feature.jiraOauthAuthtoken=sdfghjkl==
+    #feature.jiraOauthRefreshtoken=sdfagheh==
+    #feature.jiraOauthRedirecturi=uri.this.is.test:uri
+    #feature.jiraOauthExpiretime=234567890987
 
     #Start dates from which to begin collector data, if no other data is present - usually, a month back is appropriate (required)
     feature.deltaStartDate=2015-03-01T00:00:00.000000
